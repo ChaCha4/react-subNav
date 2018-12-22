@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sub-nav {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -200px;
+
+  transition: all 0.5s;
+  background-color: rgb(172, 116, 116);
+}
+.sub-nav h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 50px;
+  color: rgb(119, 233, 223);
+}
+.sub-nav > ul > li {
+  list-style: none;
+  border-top: 1px solid #ccc;
+}
+.sub-nav > ul > li > a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

@@ -1,0 +1,5 @@
+.main {
+  height: 1500px;
+  background-color: rgb(115, 189, 152);
+  transition: all 0.5s;
+}
